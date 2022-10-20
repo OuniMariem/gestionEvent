@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body {  	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* html{background-color: #F3A712;} */
+	
+.w3-col  .w3-row .container, h3, h1, h2, a, p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

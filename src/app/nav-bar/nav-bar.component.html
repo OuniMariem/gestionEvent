@@ -1,0 +1,130 @@
+
+  
+<header class="navbar navbar-expand-md  px-3  " id="navBar" >
+  
+    <a href="#" class="navbar-brand ms-4">
+      <img src="../assets/images/logo_alt1.png" style="height:40px; width: 100px;" alt="">
+  </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    <button type="button" class="navbar-toggler  " data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <span class="navbar-toggler-icon  hamburger" >
+          <i class="fa fa-bars" style="color:white ;"></i>
+        </span>
+    </button>
+    <div class="collapse navbar-collapse ms-5 " id="navbar-content">
+        <nav id="mainNav"  >
+            <ul class="navbar-nav ms-2 mb-2 mb-lg-0 nav">
+          
+                <form action="" id="" >
+                  <div class="input-group ms-2 navA" >
+                    <a class="nav-link active" aria-current="page" routerLink="/"  >
+                      <img class="img-fluid" src="../assets/images/icons8-accueil-64.png" alt="home" width="40px" height="40px"></a>
+  
+                  </div>
+              </form>
+               
+                <li class="nav-item dropdown pt-2 navA">
+                  <a class="nav-link dropdown-toggle" href="#"
+                   id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                   Types of events
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" 
+                  style="background-color: #29335C;" >
+                    <li><a class="dropdown-item font-weight-bold drp" routerLink="/home1/map" style="border-radius:300px ;color: white; ">Political Events</a></li>
+                    <li><a class="dropdown-item font-weight-bold drp" routerLink="/home1/map" style="border-radius:300px ;color: white; " >Medical Events</a></li>
+                    <li><a class="dropdown-item font-weight-bold drp" routerLink="/home1/map" style="border-radius:300px ;color: white; " >Cultural Events</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item pt-2 ">
+                  <a class="nav-link" routerLink="/about" style="color: white;">About</a>
+                </li>
+                <form action="" id=""  class="pt-1">
+                  <div class="input-group ms-3 navA">
+                      <button type="button"  value="Create Event"   style="height:40px; background-color:#29335C;  border: none; border-radius: 50px;" >
+                        <a class="nav-link active " aria-current="page" routerLink="/side/createEv" style="color: white;font-size: 16px;
+                        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Create Event</a>
+                      </button>
+                  </div>
+              </form>
+                
+              </ul>
+        </nav>
+       
+  </div>
+  <button   area-placeholder="My account"  style="border: none;background-color:#29335C;color:white;" type="button" class=" ms-3 me-4" data-bs-toggle="offcanvas" data-bs-target="#userTools">
+      <img style="color:white;" src="../assets/images/login (3).png" alt="signIn" width="30px" height="30px">Sign in
+  </button>
+  
+  </header>
+  <section class="offcanvas offcanvas-end w3-center" id="userTools" style="background-color:white ;">
+  <div class="offcanvas-header mt-5 mb-5">
+      <h2 style="color:#29335C;font-size:28px;" class="offcanvas-title pt-5" ></h2>
+        <img src="../assets/images/icons8-utilisateur-96.png" class="w3-circle " style="height:50px;width:50px ;box-shadow:7px 6px 4px #29335C;" alt="Avatar">
+        <button type="button" class="btn-close " data-bs-dismiss="offcanvas" style="color: #29335C;"></button>
+  </div>
+  <div class="offcanvas-body mt-4 ">
+      <form>
+          <div class="mb-3">
+              <mat-form-field class="example-form " appearance="fill">
+                <mat-label style="color:#29335C ;">User Name</mat-label>
+                <input matInput type="text">
+              </mat-form-field>
+          </div>
+          <div class="mb-3">
+            <mat-form-field class="example-form " appearance="fill">
+              <mat-label style="color:#29335C ;">Password</mat-label>
+              <input matInput type="password">
+            </mat-form-field>
+          </div>
+      
+        <div class="col-sm-offset-2 col-sm-10 mt-4">
+          <button type="button" class="  w3-margin-bottom me-4 res" > 
+           &nbsp;Sign in</button> 
+          <button type="button" class="  w3-margin-bottom res" routerLink="/creatCompt">&nbsp;Create an Account</button> 
+  
+          </div>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn  mt-3 forget" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Forget your password?  
+  <img src="../assets/images/icons8-doigts-en-mousse-50.png" alt="finger" width="40px" height="40px">
+    
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title " id="staticBackdropLabel"  style="text-align: center ;">
+            Forget your password?          
+            <img src="../assets/images/forgetPassword.png" alt="finger" width="25px" height="25px">
+  
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Enter your email address to reset your password.
+           You may need to check your spam folder or unblock<b> Martial.events@gmail.com</b>.</p>
+           <mat-form-field appearance="outline" class="example-form mt-4 " >
+            
+            <mat-label> Email</mat-label>
+            <input matInput type="email" placeholder="Your email">
+          </mat-form-field>
+        </div>
+        <div class="modal-footer w3-center">
+          <button type="button" class="  w3-margin-bottom me-4  " style="background-color:#E4572E;color:white ;border:none" > 
+            <img  src="../assets/images/icons8-envoyer-50.png" alt="save" width="30px" height="30px" >
+            &nbsp;Send</button> 
+         
+        </div>
+      </div>
+    </div>
+  </div>
+          
+      </form>
+  
+        </div>
+        
+     
+  </section>
+  

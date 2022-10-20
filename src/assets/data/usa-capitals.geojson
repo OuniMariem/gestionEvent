@@ -1,0 +1,755 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.279118,
+            32.361538
+          ]
+        },
+        "properties": {
+          "state": "Alabama",
+          "name": "Montgomery",
+          "population": 199518
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -134.41974,
+            58.301935
+          ]
+        },
+        "properties": {
+          "state": "Alaska",
+          "name": "Juneau",
+          "population": 32094
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.073844,
+            33.448457
+          ]
+        },
+        "properties": {
+          "state": "Arizona",
+          "name": "Phoenix",
+          "population": 1626078
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -92.331122,
+            34.736009
+          ]
+        },
+        "properties": {
+          "state": "Arkansas",
+          "name": "Little Rock",
+          "population": 198606
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.468926,
+            38.555605
+          ]
+        },
+        "properties": {
+          "state": "California",
+          "name": "Sacramento",
+          "population": 501901
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.984167,
+            39.7391667
+          ]
+        },
+        "properties": {
+          "state": "Colorado",
+          "name": "Denver",
+          "population": 704621
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.677,
+            41.767
+          ]
+        },
+        "properties": {
+          "state": "Connecticut",
+          "name": "Hartford",
+          "population": 123400
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.526755,
+            39.161921
+          ]
+        },
+        "properties": {
+          "state": "Delaware",
+          "name": "Dover",
+          "population": 37538
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.27277,
+            30.4518
+          ]
+        },
+        "properties": {
+          "state": "Florida",
+          "name": "Tallahassee",
+          "population": 191049
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.39,
+            33.76
+          ]
+        },
+        "properties": {
+          "state": "Georgia",
+          "name": "Atlanta",
+          "population": 486290
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -157.826182,
+            21.30895
+          ]
+        },
+        "properties": {
+          "state": "Hawaii",
+          "name": "Honolulu",
+          "population": 350395
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.237651,
+            43.613739
+          ]
+        },
+        "properties": {
+          "state": "Idaho",
+          "name": "Boise",
+          "population": 226570
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.650373,
+            39.78325
+          ]
+        },
+        "properties": {
+          "state": "Illinois",
+          "name": "Springfield",
+          "population": 114868
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.147685,
+            39.790942
+          ]
+        },
+        "properties": {
+          "state": "Indiana",
+          "name": "Indianapolis",
+          "population": 863002
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.620866,
+            41.590939
+          ]
+        },
+        "properties": {
+          "state": "Iowa",
+          "name": "Des Moines",
+          "population": 217521
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -95.69,
+            39.04
+          ]
+        },
+        "properties": {
+          "state": "Kansas",
+          "name": "Topeka",
+          "population": 126587
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.86311,
+            38.197274
+          ]
+        },
+        "properties": {
+          "state": "Kentucky",
+          "name": "Frankfort",
+          "population": 27621
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -91.140229,
+            30.45809
+          ]
+        },
+        "properties": {
+          "state": "Louisiana",
+          "name": "Baton Rouge",
+          "population": 225374
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.765261,
+            44.323535
+          ]
+        },
+        "properties": {
+          "state": "Maine",
+          "name": "Augusta",
+          "population": 18594
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.501157,
+            38.972945
+          ]
+        },
+        "properties": {
+          "state": "Maryland",
+          "name": "Annapolis",
+          "population": 39321
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.0275,
+            42.2352
+          ]
+        },
+        "properties": {
+          "state": "Massachusetts",
+          "name": "Boston",
+          "population": 685094
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -84.5467,
+            42.7335
+          ]
+        },
+        "properties": {
+          "state": "Michigan",
+          "name": "Lansing",
+          "population": 116986
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.094,
+            44.95
+          ]
+        },
+        "properties": {
+          "state": "Minnesota",
+          "name": "Saint Paul",
+          "population": 306621
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -90.207,
+            32.32
+          ]
+        },
+        "properties": {
+          "state": "Mississippi",
+          "name": "Jackson",
+          "population": 166965
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -92.189283,
+            38.572954
+          ]
+        },
+        "properties": {
+          "state": "Missouri",
+          "name": "Jefferson City",
+          "population": 42895
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.027031,
+            46.595805
+          ]
+        },
+        "properties": {
+          "state": "Montana",
+          "name": "Helana",
+          "population": 31429
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.675345,
+            40.809868
+          ]
+        },
+        "properties": {
+          "state": "Nebraska",
+          "name": "Lincoln",
+          "population": 284736
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -119.753877,
+            39.160949
+          ]
+        },
+        "properties": {
+          "state": "Nevada",
+          "name": "Carson City",
+          "population": 54745
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.549127,
+            43.220093
+          ]
+        },
+        "properties": {
+          "state": "New Hampshire",
+          "name": "Concord",
+          "population": 43019
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.756138,
+            40.221741
+          ]
+        },
+        "properties": {
+          "state": "New Jersey",
+          "name": "Trenton",
+          "population": 84964
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.964575,
+            35.667231
+          ]
+        },
+        "properties": {
+          "state": "New Mexico",
+          "name": "Santa Fe",
+          "population": 83776
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.781339,
+            42.659829
+          ]
+        },
+        "properties": {
+          "state": "New York",
+          "name": "Albany",
+          "population": 98251
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.638,
+            35.771
+          ]
+        },
+        "properties": {
+          "state": "North Carolina",
+          "name": "Raleigh",
+          "population": 464758
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.7837,
+            46.8083
+          ]
+        },
+        "properties": {
+          "state": "North Dakota",
+          "name": "Bismarck",
+          "population": 72865
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -83.000647,
+            39.962245
+          ]
+        },
+        "properties": {
+          "state": "Ohio",
+          "name": "Columbus",
+          "population": 879170
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.534994,
+            35.482309
+          ]
+        },
+        "properties": {
+          "state": "Oklahoma",
+          "name": "Oklahoma City",
+          "population": 643648
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -123.029159,
+            44.931109
+          ]
+        },
+        "properties": {
+          "state": "Oregon",
+          "name": "Salem",
+          "population": 169798
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.875613,
+            40.269789
+          ]
+        },
+        "properties": {
+          "state": "Pennsylvania",
+          "name": "Harrisburg",
+          "population": 49192
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.422132,
+            41.82355
+          ]
+        },
+        "properties": {
+          "state": "Rhode Island",
+          "name": "Providence",
+          "population": 180393
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.035,
+            34
+          ]
+        },
+        "properties": {
+          "state": "South Carolina",
+          "name": "Columbia",
+          "population": 133114
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.336378,
+            44.367966
+          ]
+        },
+        "properties": {
+          "state": "South Dakota",
+          "name": "Pierre",
+          "population": 14004
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -86.784,
+            36.165
+          ]
+        },
+        "properties": {
+          "state": "Tennessee",
+          "name": "Nashville",
+          "population": 667560
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -97.75,
+            30.266667
+          ]
+        },
+        "properties": {
+          "state": "Texas",
+          "name": "Austin",
+          "population": 950715
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111.892622,
+            40.7547
+          ]
+        },
+        "properties": {
+          "state": "Utah",
+          "name": "Salt Lake City",
+          "population": 200544
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.57194,
+            44.26639
+          ]
+        },
+        "properties": {
+          "state": "Vermont",
+          "name": "Montpelier",
+          "population": 7484
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.46,
+            37.54
+          ]
+        },
+        "properties": {
+          "state": "Virginia",
+          "name": "Richmond",
+          "population": 227032
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.893077,
+            47.042418
+          ]
+        },
+        "properties": {
+          "state": "Washington",
+          "name": "Olympia",
+          "population": 51609
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -81.633294,
+            38.349497
+          ]
+        },
+        "properties": {
+          "state": "West Virginia",
+          "name": "Charleston",
+          "population": 47929
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -89.384444,
+            43.074722
+          ]
+        },
+        "properties": {
+          "state": "Wisconsin",
+          "name": "Madison",
+          "population": 255214
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.802042,
+            41.145548
+          ]
+        },
+        "properties": {
+          "state": "Wyoming",
+          "name": "Cheyenne",
+          "population": 63624
+        }
+      }
+    ]
+  }

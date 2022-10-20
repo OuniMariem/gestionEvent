@@ -1,0 +1,24 @@
+
+
+
+  p{ color: black;
+  }
+  #cont{
+    box-shadow: 10px 10px 10px 15px #E4572E;
+    border-radius: 20px;
+    height: 600px;
+    margin-top: 30px;
+  }
+
+
+   
+    body{
+      background-color: hsla(0, 6%, 66%, 0.11);
+    }
+    .contact{
+      padding: 7%;
+      height: 500px;
+    }
+   
+   
+  

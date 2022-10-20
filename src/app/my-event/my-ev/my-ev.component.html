@@ -1,0 +1,204 @@
+ <!-- Middle Column -->
+
+ <div class="w3-row-padding">
+    <div class="w3-col m12">
+      <div class="w3-card w3-round w3-white" >
+        <div class="w3-container w3-padding">
+                <div class="input-group rounded "  >
+                    
+                    <input type="search" class="form-control rounded"
+                     placeholder="Search" aria-label="Search" aria-describedby="search-addon"  style="color:#29335C ;"/>
+                    <span class="input-group-text border-0" id="search-addon" style="background-color:#E4572E ;">
+                      <img src="../../../assets/images/icons8-chercher-50.png" alt="search" width="30px" height="30px" >                 
+                   </span>
+                        </div>
+                  
+            </div>
+        </div>
+      </div>
+    </div>
+
+  
+  <div class="w3-container w3-card w3-white w3-round w3-margin">
+    
+    <div class="w3-row ">
+    <div class="w3-col m8 ms-5 " class="l12" > 
+
+       <mat-form-field style="   
+    margin-top: 10px;" appearance="fill">
+        <mat-label>Choose a date</mat-label>
+        <input matInput [matDatepicker]="picker" >
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker" ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field></div>
+          <div class="w3-row-padding" class="mt-5">   
+          <mat-tab-group >
+          <mat-tab   label="Today "  >  
+          <table class="table table-striped "  >
+            <thead style="border:none ;">
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">LUN
+                        18</th>
+                    <td>18 juillet 2022 @ 18 h 00 min - 19 juillet 2022 @ 4 h 00 min
+                        3ochag Eddenya fil Yüka 18 Juillet
+                        Yuka Yuka Gammarth, Gammarth
+                        Plus de place disponibles 63.000DT à 95.000DT</td>
+                    <td><img src="../../../assets/images/nouba.jpg" class="img-fluid"  routerLink="/side/detailEve"></td>
+                  </tr>
+              <tr>
+                <th scope="row">MAR
+                    19</th>
+                <td>19 juillet 2022 @ 21 h 00 min - 23 h 00 min
+                    Kiffeur Tour
+                    La Majorelle Gammarth
+                    Pour reserver votre siège cliquer ici :</td>
+                    <td><img src="../../../assets/images/even.jpg" class="img-fluid"></td>
+                </tr>
+              <tr>
+                <th scope="row">JEU
+                    21</th>
+                <td>21 juillet 2022 @ 16 h 00 min - 22 juillet 2022 @ 4 h 00 min
+                    Couscous Connexion Carnival w/ Jeremy Underground, Habibi Funk, Dendri Stambeli Movement, 6Soul
+                    Yuka Yuka Gammarth, Gammarth
+                    We are beyond excited to be uniting some of our favourite artists for a Tunisia-inspired carnival at the capital's renowned beachside venue, Yüka Tunis. Together, we will celebrate the beauty […]
+                    
+                    Obtenir Billets 33.000DT à 43.000DT</td>
+                <td><img src="../../../assets/images/cos.jpg" class="img-fluid"></td>
+            </tr>
+            <tr>
+                <th scope="row">VEN
+                    22</th>
+                <td>22 juillet 2022 @ 18 h 00 min - 23 juillet 2022 @ 4 h 00 min
+                    Nervous Addiction w/ More Than Music
+                    Le Carpe Diem Le Carpe Diem - Tunis
+                    Obtenir Billets 50.000DT à 90.000DT</td>
+                <td><img src="../../../assets/images/whats.jpeg" class="img-fluid"></td>
+            </tr>
+            </tbody>
+          </table>
+         </mat-tab>
+        <mat-tab label="Day">  <div class="w3-row-padding" style="margin:0 -16px">
+
+          <table class="table table-striped "  >
+            <thead style="border:none ;">
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">LUN
+                        18</th>
+                    <td>18 juillet 2022 @ 18 h 00 min - 19 juillet 2022 @ 4 h 00 min
+                        3ochag Eddenya fil Yüka 18 Juillet
+                        Yuka Yuka Gammarth, Gammarth
+                        Plus de place disponibles 63.000DT à 95.000DT</td>
+                    <td><img src="../../../assets/images/nouba.jpg" class="img-fluid"  routerLink="/side/detailEve"></td>
+                  </tr>
+              <tr>
+                <th scope="row">MAR
+                    19</th>
+                <td>19 juillet 2022 @ 21 h 00 min - 23 h 00 min
+                    Kiffeur Tour
+                    La Majorelle Gammarth
+                    Pour reserver votre siège cliquer ici :</td>
+                    <td><img src="../../../assets/images/even.jpg" class="img-fluid"></td>
+                </tr>
+              <tr>
+                <th scope="row">JEU
+                    21</th>
+                <td>21 juillet 2022 @ 16 h 00 min - 22 juillet 2022 @ 4 h 00 min
+                    Couscous Connexion Carnival w/ Jeremy Underground, Habibi Funk, Dendri Stambeli Movement, 6Soul
+                    Yuka Yuka Gammarth, Gammarth
+                    We are beyond excited to be uniting some of our favourite artists for a Tunisia-inspired carnival at the capital's renowned beachside venue, Yüka Tunis. Together, we will celebrate the beauty […]
+                    
+                    Obtenir Billets 33.000DT à 43.000DT</td>
+                <td><img src="../../../assets/images/cos.jpg" class="img-fluid"></td>
+            </tr>
+            <tr>
+                <th scope="row">VEN
+                    22</th>
+                <td>22 juillet 2022 @ 18 h 00 min - 23 juillet 2022 @ 4 h 00 min
+                    Nervous Addiction w/ More Than Music
+                    Le Carpe Diem Le Carpe Diem - Tunis
+                    Obtenir Billets 50.000DT à 90.000DT</td>
+                <td><img src="../../../assets/images/whats.jpeg" class="img-fluid"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div></mat-tab>
+        <mat-tab label="Month">  <div class="w3-row-padding" style="margin:0 -16px">
+
+          <table class="table table-striped "  >
+            <thead style="border:none ;">
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">LUN
+                        18</th>
+                    <td>18 juillet 2022 @ 18 h 00 min - 19 juillet 2022 @ 4 h 00 min
+                        3ochag Eddenya fil Yüka 18 Juillet
+                        Yuka Yuka Gammarth, Gammarth
+                        Plus de place disponibles 63.000DT à 95.000DT</td>
+                    <td><img src="../../../assets/images/nouba.jpg" class="img-fluid"  routerLink="/side/detailEve"></td>
+                  </tr>
+              <tr>
+                <th scope="row">MAR
+                    19</th>
+                <td>19 juillet 2022 @ 21 h 00 min - 23 h 00 min
+                    Kiffeur Tour
+                    La Majorelle Gammarth
+                    Pour reserver votre siège cliquer ici :</td>
+                    <td><img src="../../../assets/images/even.jpg" class="img-fluid"></td>
+                </tr>
+              <tr>
+                <th scope="row">JEU
+                    21</th>
+                <td>21 juillet 2022 @ 16 h 00 min - 22 juillet 2022 @ 4 h 00 min
+                    Couscous Connexion Carnival w/ Jeremy Underground, Habibi Funk, Dendri Stambeli Movement, 6Soul
+                    Yuka Yuka Gammarth, Gammarth
+                    We are beyond excited to be uniting some of our favourite artists for a Tunisia-inspired carnival at the capital's renowned beachside venue, Yüka Tunis. Together, we will celebrate the beauty […]
+                    
+                    Obtenir Billets 33.000DT à 43.000DT</td>
+                <td><img src="../../../assets/images/cos.jpg" class="img-fluid"></td>
+            </tr>
+            <tr>
+                <th scope="row">VEN
+                    22</th>
+                <td>22 juillet 2022 @ 18 h 00 min - 23 juillet 2022 @ 4 h 00 min
+                    Nervous Addiction w/ More Than Music
+                    Le Carpe Diem Le Carpe Diem - Tunis
+                    Obtenir Billets 50.000DT à 90.000DT</td>
+                <td><img src="../../../assets/images/whats.jpeg" class="img-fluid"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div> 
+      </mat-tab>
+      </mat-tab-group>
+      
+     
+    
+    </div>
+  </div>
+    </div>
+  
+
+  
+  <!-- End Middle Column -->
+  

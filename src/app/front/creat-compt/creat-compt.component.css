@@ -1,0 +1,36 @@
+.example-form {
+    min-width: 100px;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .exF>mat-label{
+    color: white;
+  }
+
+  #compte{
+    box-shadow: 3px 3px 2px  #29335C;
+    border-radius: 20px;
+    opacity: 1;
+    position: relative;
+    color: #29335C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+  }
+  button.res:hover{
+    background-color: #29335C ;
+    border: none;
+    
+}
+.res{
+    border: none;
+  background-color: #E4572E;
+  color:#fff;
+  border-radius: 10px;
+  font-size: 18px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

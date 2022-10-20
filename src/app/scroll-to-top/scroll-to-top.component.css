@@ -1,0 +1,17 @@
+p {
+    font-family: Lato;
+  }
+  
+  .to-top {
+    bottom: 0;
+    cursor: pointer;
+    margin: 0 8px 12px 0;
+    position: fixed;
+    right: 0;
+  }
+  
+  .show-scrolltop {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+  }
+  

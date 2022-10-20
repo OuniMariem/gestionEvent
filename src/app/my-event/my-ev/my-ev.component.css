@@ -1,0 +1,12 @@
+
+/* span.sear:hover{
+    box-shadow: 4px 3px 5px #29335C;
+    border: none;
+} */
+
+.w3-col  .w3-row .container, h3, h1, h2, a, p ,td , tr,mat-label,mat-hint{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+th,td{    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:#29335C ;
+}

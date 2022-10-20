@@ -1,0 +1,111 @@
+<!-- Middle Column -->
+
+<div class="w3-container w3-card w3-white w3-round w3-margin">
+  <div class="w3-row m12 w3-padding mt-4 mb-4"><h1 class="mb-5">Create Event
+    <hr style="width: 50%; margin-left:25% !important; margin-right:25% !important;height: 3px;" /></h1>
+ <br><br>
+  <div class="w3-col m6">   
+     
+      <h3>Title of event *</h3>
+      <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Title of event *</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+
+        <h3>Name of organizer *</h3>
+        <mat-form-field class="example-form-field" appearance="fill">
+            <mat-label>Name of organizer *</mat-label>
+            <input matInput type="text">
+          </mat-form-field>
+
+          <h3>Type of Event *</h3>
+      <mat-form-field appearance="fill">
+        <mat-label>choose type event</mat-label>
+        <select matNativeControl required>
+          <option value="Choose type of Event">Choose type of Event</option>
+
+          <option value="Physical Event">Physical Event</option>
+          <option value="Virtual Event">Virtual Event</option>
+          <option value="Hybrid Event">Hybrid Event</option>
+        </select>
+      </mat-form-field>
+
+      <h3>Duration of event *</h3>
+      <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Duration of event *</mat-label>
+          <input matInput type="text">
+        </mat-form-field>
+  
+  </div>
+  
+  <div class="w3-col m6">
+    <h3>Category of event *</h3>
+          <mat-form-field appearance="fill">
+            <mat-label>Category of Event</mat-label>
+            <select matNativeControl required>
+              <option value="Virtual Conferences & Summits">
+                Virtual Conferences & Summits
+            </option>
+              <option value="Virtual Product Launches ">
+                Virtual Product Launches
+            </option>
+              <option value="Virtual Open Days
+              ">Virtual Open Days
+            </option>
+              <option value="Virtual Open Days
+              ">Virtual Open Days
+            </option>
+            <option value="Virtual Trade Shows & Expos">Virtual Trade Shows & Expos
+          </option>
+      </select>
+          </mat-form-field>
+    <h3>Date of event</h3>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Choose a date</mat-label>
+      <input matInput type="datetime-local" >
+      <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+      <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker  #picker></mat-datepicker> -->
+    </mat-form-field>
+
+    <h3>Locality of event *</h3>
+      <mat-form-field appearance="outline" class="sm-3">
+        <mat-label>Locality</mat-label>
+        <select matNativeControl required>
+          <option value="Tunisia">Tunisia
+        </option>
+          <option value="Sousse">Sousse
+        </option>
+          <option value="Sidi bouzid
+          ">Sidi bouzid
+        </option>
+      </select>
+    </mat-form-field>
+
+    <h3>Photos of event *</h3>
+      <mat-form-field class="example-form-field" appearance="fill">
+          <mat-label>Photos </mat-label>
+          <input matInput type="url">
+        </mat-form-field>
+    
+  </div>
+  
+    
+  </div> 
+  <!-- <button type="button" class="w3-button w3-light-grey w3-margin-bottom me-4"> <img src="../../../assets/images/save-file.png" alt="save" width="30px" height="30px" >&nbsp;Save</button> 
+    <button type="button" class="w3-button w3-light-grey w3-margin-bottom"><img src="../../../assets/images/reset (1).png" alt="save" width="30px" height="30px" ></button> 
+   -->
+    <div class="form-group pt-5 m-5">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class=" btn w3-margin-bottom me-4 res" > 
+          <img  src="../../../assets/images/icons8-enregistrer-sous-100.png" alt="save" width="30px" height="30px" >&nbsp;Save</button> 
+        <button type="button" class=" btn w3-margin-bottom res">
+          <img src="../../../assets/images/icons8-resaisir-code-pin-50.png" alt="save" width="30px" height="30px" >&nbsp;Reset</button> 
+        </div>
+    
+</div>
+  
+  </div>
+  
+  <!-- End Middle Column -->
+  

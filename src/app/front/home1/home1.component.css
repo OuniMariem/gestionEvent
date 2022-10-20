@@ -1,0 +1,9 @@
+.w3-col  .w3-row .container,  h1, h2, a, p ,td , tr,mat-label,mat-hint{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#29335C ;
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#E4572E ;
+    font-size: 18px;
+}

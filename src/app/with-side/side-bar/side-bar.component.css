@@ -1,0 +1,21 @@
+.w3-col  .w3-row .container, h3, h1, h2, a, p ,td , tr,mat-label,mat-hint{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+h4{color:#29335C;}
+
+
+button.sidR:hover{
+background-color: #29335C;
+}
+
+
+.update>button{
+  background-color:#E4572E ;
+  color:white;
+  border-radius: 10px;
+
+}
+.update>button:hover{
+  background-color: #29335C;
+}

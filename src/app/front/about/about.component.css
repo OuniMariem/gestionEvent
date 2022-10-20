@@ -1,0 +1,17 @@
+
+
+.abtbg
+{
+    color: #E4572E;
+    border-radius: 20px;
+    background-color: white;
+}
+.abt{
+    font-size: 18px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abtbg>p{
+    color: #29335C;
+    font-family:cursive;
+    white-space: 10px;
+}

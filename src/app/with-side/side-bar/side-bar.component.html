@@ -1,0 +1,150 @@
+
+  <!-- Page Container -->
+  <div class="w3-container-fluid  " style="margin-top:40px;">    
+    <!-- The Grid -->
+    <div class="w3-row  "  >
+      <!-- Left Column -->
+      <div class="w3-col  m3 ms-2" >
+        <!-- Profile -->
+        <div class="w3-card w3-round w3-white">
+          <div class="w3-container">
+            <header >
+           <h4 class="w3-center" >My Profile</h4>
+           
+           <p class="w3-center"><img src="../../../assets/images/icons8-utilisateur-50.png" class="w3-circle" style="height:50px;width:50px ;box-shadow:7px 6px 4px #29335C;" alt="Avatar"></p>
+           
+           <hr style="color:#29335C ;width: 50%; margin-left:25% !important; margin-right:25% !important;height: 3px;" />
+
+          </header>
+           <div class="w3-container">
+            <div class="form-group">
+              
+              </div>
+            </div>
+            <div class="form-group">
+              <p style="color: #29335C;">
+                <button type="button" class="btn" (click)="openPopup()"> 
+                <img src="../../../assets/images/script_editor (1).png" alt="edit" width="20px" height="20px" >  John Doe</button></p>
+           
+           <p style="color: #29335C;"><button type="button" class="btn" (click)="openPopup()"> <img src="../../../assets/images/script_editor (1).png" alt="edit" width="20px" height="20px" >CEO & Founder</button>
+           <p style="color: #29335C;"><button type="button" class="btn" (click)="openPopup()"> <img src="../../../assets/images/script_editor (1).png" alt="edit" width="20px" height="20px" >  Harvard University</button>
+            </div>
+           
+          </div>
+          <footer class="w3-container " style="background-color:#29335C ;" >
+            <div class=" w3-row  col-lg-8 ">
+              <div> 
+              </div>
+              <div class="w3-col-lg-5 mt-2 mb-2" >
+              <a href="#"><img src="../assets/images/icons8-facebook-nouveau-50.png" alt="facebook" width="20px" height="20px"  class="ms-5 "></a>
+              <a href="#"><img src= "../assets/images/icons8-instagram-32.png" alt="instagram" width="20px" height="20px" ></a>
+                <a href="#"><img src= "../assets/images/icons8-linkedin-entouré-50.png" alt="linkInd" width="20px" height="20px"></a>
+                  <a href="#"> <img src= "../assets/images/icons8-twitter-80.png" alt="twitter" width="25px" height="20px"></a>
+          </div></div>
+          </footer>
+          
+        </div>
+        <br>
+        
+        <!-- Accordion -->
+        <div class="w3-card w3-round" >
+            <div id=" " >         
+               
+            <button   routerLink="/side/createEv" onclick="myFunction('Demo1')"
+             class="w3-button w3-block  w3-left-align " style="background-color:#E4572E ;">
+             <img src="../../../assets/images/create.png"  width="15px" height="15px" class=" w3-margin-right" style="color:#29335C ;">
+               Create event</button>
+         
+            <button routerLink="/side/myEv" onclick="myFunction('Demo2')" 
+            class="w3-button w3-block  w3-left-align " style="background-color:#E4572E ;">
+              <i class="fa fa-calendar-check-o fa-fw w3-margin-right" style="color:#29335C ;"></i>
+               My Events</button>
+            
+            <button routerLink="/side/videoPhoEv" onclick="myFunction('Demo3') "
+             class="w3-button w3-block  w3-left-align" style="background-color:#E4572E ;">
+              <img src="../../../assets/images/photoVideo.png"  width="15px" height="15px" 
+              class=" w3-margin-right" style="color:#29335C ;">Video ,Photos event</button>
+          
+              <!-- <div id="Demo3" class="w3-hide w3-container">
+           <div class="w3-row-padding">
+           <br>
+             
+           </div>
+            </div> -->
+          </div>      
+        </div>
+        <br>
+        <div class="w3-card w3-round w3-white ">
+          <div class="w3-container w3-center">
+            <p style="color:#29335C;font-size:18px ;" class="mt-3 w3-center">Upcoming Events:</p>
+            <img src="../../../assets/images/hybrid.jpg" alt="Forest" style="width:100%;">
+            <p><strong>Holiday</strong></p>
+            <p>Friday 15:00</p>
+            <p><button class="w3-button w3-block " style="background-color:#29335C ;color: white;">Info</button></p>
+          </div>
+        </div>
+      <!-- End Left Column -->
+      </div>
+	<div class="w3-col ms-3  m8 " style="box-shadow:1px 2px 3px #29335C ;">
+      <router-outlet></router-outlet>
+  </div>
+  </div> 
+    
+  <!-- End Page Container -->
+  </div>
+
+
+
+
+
+  <div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  [ngStyle]="{'display':displayStyle}"  >
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content" >
+      <div class="modal-header"  [ngStyle]="{ 'background-color':'#29335C'}" >
+       <p style="color:white ;">           
+        <img src="../../../assets/images/update1.png" alt="finger" width="30px" height="30px" >
+      Update Your information </p><button type="button" class="btn"  
+      (click)="closePopup()">
+      <img src="../../assets/images/close.png" alt="close" width="30px" height="30px">
+
+
+</button></div>
+      <div class="modal-body">
+      <div class="form-group">
+            <p>Company Name
+            <mat-form-field appearance="outline" class="example-form  exF" style="width: 300px;color: #29335C;">
+            <mat-label > Company Name</mat-label>
+            <input matInput type="email" placeholder="Your email">
+            </mat-form-field> 
+          </p>       
+        </div>
+        <div class="form-group"><p>Sector of activity
+            <mat-form-field appearance="outline" class="example-form  exF" style="width: 300px; color: #29335C;">
+              <mat-label> sector of activity</mat-label>
+              <input matInput type="email" placeholder="Your email">
+            </mat-form-field></p>
+          </div>
+          <div class="form-group"><p>Adress of company
+            <mat-form-field appearance="outline" class="example-form  exF" style="width: 300px; color: #29335C;">
+              <mat-label>  Adress of Company</mat-label>
+              <input matInput type="email" placeholder="Your email">
+            </mat-form-field></p>
+          </div>
+          <div class="col-sm-offset-2 update">
+            <button type="button" class=" btn w3-margin-bottom ms-5 " > 
+              <img  src="../../../assets/images/update.png" alt="update" width="30px" height="30px" class="mt-1 mb-1" >&nbsp;Update</button> 
+            </div>
+      </div>
+      <div class="modal-footer "  [ngStyle]="{ 'background-color':'#29335C'}" >
+        <div class="col-lg-12 ">
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  

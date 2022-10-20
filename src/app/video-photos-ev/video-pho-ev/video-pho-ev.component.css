@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 2px 5px 8px #29335C ;
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 8px 2px 8px;
+
+  }
+  
+  .card:hover  {
+    box-shadow: 2px 2px 1px #29335C;
+    border-radius: 5px;
+    /* background-color: #E4572E ; */
+    color: white;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .titleev{
+    color: #E4572E;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+.crd>p{
+  text-transform: lowercase;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: #29335C;
+}
+.pho>p{
+  text-transform: uppercase;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  color: #29335C;
+}
