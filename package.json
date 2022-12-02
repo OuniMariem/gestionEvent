@@ -1,5 +1,5 @@
 {
-  "name": "gestion-events",
+  "name": "SidaLess",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,6 +15,7 @@
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
     "@angular/core": "^14.0.0",
+    "@angular/fire": "^7.5.0",
     "@angular/forms": "^14.0.0",
     "@angular/material": "^14.0.4",
     "@angular/platform-browser": "^14.0.0",
@@ -23,6 +24,7 @@
     "@types/leaflet": "^1.7.11",
     "angular-calendar": "^0.29.0",
     "date-fns": "^2.28.0",
+    "firebase": "^9.14.0",
     "leaflet": "^1.8.0",
     "ng2-file-upload": "^1.4.0",
     "rxjs": "~7.5.0",

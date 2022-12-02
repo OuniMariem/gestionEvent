@@ -1,0 +1,44 @@
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .mat-form-field{
+    width: 150px;
+    color:#29335C;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  
+  button.res:hover{
+    background-color: #29335C ;
+    border: none;
+    
+  }
+  .res{
+  border: none;
+  background-color: #E4572E;
+  color:#fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .w3-row, h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: #29335C;
+    font-weight: 600;
+  }
+  h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color:#E4572E;
+    font-weight: 800;
+    text-align: center;
+  
+  }
+  

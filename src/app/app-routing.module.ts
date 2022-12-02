@@ -1,13 +1,15 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Home1Component } from './front/home1/home1.component';
-import { AboutComponent } from './front/about/about.component';
 import { CreatComptComponent } from './front/creat-compt/creat-compt.component';
 import { DescriptionTopAgencyComponent } from './front/description-top-agency/description-top-agency.component';
 import { HomeComponent } from './front/home/home.component';
 import { TopAgencyComponent } from './front/top-agency/top-agency.component';
 import { SideBarComponent } from './with-side/side-bar/side-bar.component';
-import { MapComponent } from './leaflet-map/map/map.component';
+import { AddPostComponent } from './add-post/add-post.component';
+import { AddformulaireComponent } from './addformulaire/addformulaire.component';
+import { AboutComponent } from './about/about.component';
+import { Home1Component } from './home1/home1.component';
+//import { AddformulaireComponent } from './addformulaire/addformulaire.component';
 
 
 const routes: Routes = [
@@ -32,10 +34,8 @@ const routes: Routes = [
 {path:'side', component:SideBarComponent,children:[
   {path:'detailEve' ,loadChildren:()=>import('../app/details-ev/details-ev.module').then(m=>m.DetailsEvModule)}
 ]},
-{path:'home1', component:Home1Component,children:[
-  {path:'map' ,loadChildren:()=>import('../app/leaflet-map/leaflet-map.module').then(m=>m.LeafletMapModule)}
-]},
-
+{path:'addPost', component:AddPostComponent},
+{path:'addformulaire', component:AddformulaireComponent}
 ];
 
 

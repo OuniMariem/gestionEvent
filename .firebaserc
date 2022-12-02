@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sidaless-30c13": {
+      "hosting": {
+        "SidaLess": [
+          "sidaless-30c13"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sidaless-30c13"
+  }
+}

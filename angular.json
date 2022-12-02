@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "gestionEvents": {
+    "SidaLess": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/gestion-events",
+            "outputPath": "dist/SidaLess",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -30,7 +30,6 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "./node_modules/leaflet/dist/leaflet.css",
-
               "src/styles.css"
             ],
             "scripts": []
@@ -72,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gestionEvents:build:production"
+              "browserTarget": "SidaLess:build:production"
             },
             "development": {
-              "browserTarget": "gestionEvents:build:development"
+              "browserTarget": "SidaLess:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gestionEvents:build"
+            "browserTarget": "SidaLess:build"
           }
         },
         "test": {
@@ -102,6 +101,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "SidaLess:build:production",
+            "firebaseProject": "sidaless-30c13",
+            "firebaseHostingSite": "sidaless-30c13"
           }
         }
       }

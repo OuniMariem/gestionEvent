@@ -1,0 +1,37 @@
+<p>addformulaire works!</p>
+
+<div class="row w3-card w3-white w3-round w3-margin p-5">
+
+    <div class="w3-row m12 w3-padding mt-4 mb-4"><h1 class="mb-5 w3-center">Create Event
+      <hr style="width: 50%; margin-left:25% !important; margin-right:25% !important;height: 3px;" /></h1>
+   <br><br>
+   <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+
+    <div class="col-xs-12 m6 w3-center">         
+        <h3>Pseudo</h3>
+        
+        <mat-form-field class="example-form-field" appearance="fill">
+            <mat-label>Pseudo</mat-label>
+            <input matInput type="text" value="Anonyme" ngModel name="pseudo" id="pseudo">
+          </mat-form-field>
+  
+          <h3>Post</h3>
+          <mat-form-field class="example-form-field" appearance="fill" >
+              <mat-label>Post</mat-label>
+              <textarea matInput rows="10" cols="200"  ngModel name="pub" id="pub" required></textarea>         
+              </mat-form-field>
+      
+    </div>
+  
+      <div class="form-group col-xs-12 pt-5 m-5 w3-center">        
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class=" btn w3-margin-bottom me-4 res"  [disabled]="!form.valid" > 
+            <img  src="../../../assets/images/icons8-enregistrer-sous-100.png" alt="save" width="30px" height="30px" >&nbsp;Save</button> 
+          <button (click)="onCancel()" type="submit" class=" btn w3-margin-bottom res">
+            <img src="../../../assets/images/icons8-resaisir-code-pin-50.png" alt="save" width="30px" height="30px" >&nbsp;Reset</button> 
+          </div>
+      
+  </div>
+</form>
+    
+    </div>
